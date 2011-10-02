@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Recordando ZhuYin</string>
+    <string name="next">Siguiente</string>
+    <string name="previous">Anterior</string>
+    <string name="character_mode">Modo ZhuYin</string>
+    <string name="keyword_mode">Modo PinYin</string>
+    <string name="day_night">Día/Noche</string>
+    <string name="search_hint">Buscar ZhuYin</string>
+    <string name="no_results_found">No se encontraron resultados para \"%s\"</string>
+    <string name="settings_description">Caracteres ZhuYin</string>
+    <string name="shuffle">Mezclar</string>
+</resources>

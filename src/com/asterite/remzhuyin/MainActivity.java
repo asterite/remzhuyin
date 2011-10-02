@@ -39,7 +39,7 @@ public class MainActivity extends Activity {
 	private final static int MENU_SHUFFLE = 2;
 	
 	private int state = STATE_FIRST;
-	private int mode = MODE_FIRST_KEYWORD;
+	private int mode = MODE_FIRST_CHARACTER;
 	private boolean day = true;
 	private RandomCharacters randomCharacters;
 	private ViewFlipper flipper;
@@ -120,7 +120,7 @@ public class MainActivity extends Activity {
 		int totalCharacters = Characters.size();
 		
 		day = prefs.getBoolean(PREF_DAY, true);
-		mode = prefs.getInt(PREF_MODE, MODE_FIRST_KEYWORD);
+		mode = prefs.getInt(PREF_MODE, MODE_FIRST_CHARACTER);
 		int lastLesson = prefs.getInt(PREF_LAST_FRAME, totalCharacters);
 		int totalLessons = prefs.getInt(PREF_TOTAL_FRAMES, -1);
 		if (totalLessons != -1 && lastLesson == totalLessons) {
