@@ -1,0 +1,7 @@
+== Remembering Simplified Hanzi
+
+A flashcard-like application that lets you review the Chinese characters you learn with the excellent book Remembering Simplified Hanzi by James W. Heisig and Timothy W. Richardson.
+
+Touch or swipe the screen to move to the next/previous character.
+
+You must have a copy of the book in order to understand this application.
